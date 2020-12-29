@@ -21,7 +21,7 @@ function getColor(i) {
     i > 4  ? "#EA822C" :
     i > 3  ? "#EE9C00" :
     i > 2  ? "#EECC00" :
-    i > 1   ?  "#D4EE00" :
+    i > 1  ?  "#D4EE00" :
              "#98EE00";
   }
 
@@ -43,3 +43,11 @@ d3.json(usgslink, function (data) {
         }
     }).addTo(myMap);
 })
+
+
+// function createFeatures(data) {
+//     // Give each feature a popup describing the place, time, type, magnitude, and depth of the earthquake
+//     function onEachFeature(feature, layer) {
+//       layer.bindPopup("<h4>" + feature.properties.place +
+//         "</h4><hr>" + "<b><u>Time</u>: </b>"+ new Date(feature.properties.time) + "<br>" + "<b><u>Type</u>: </b>" + feature.properties.type + "<br>" + "<b><u>Magnitude</u>: </b>" + feature.properties.mag + "<br>" + "<b><u>Depth</u>: </b>" + feature.geometry.coordinates[2]);
+//     }
