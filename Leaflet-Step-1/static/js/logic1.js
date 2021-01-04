@@ -44,3 +44,21 @@ d3.json(usgslink, function (data) {
         }
     }).addTo(myMap);
 })
+
+// // Set up the legend
+// var legend = L.control({ position: "bottomright" });
+// legend.onAdd = function() {
+// var div = L.DomUtil.create("div", "info legend");
+// var colors = getColor(feature.geometry.coordinates[2]);
+// var labels = [];
+
+// // Add min & max
+// var legendInfo = "<h1>Earthquake Depth</h1>" +
+// "<div class=\"labels\">" +
+//     "<div class=\"min\">" +  + "</div>" +
+//     "<div class=\"max\">" +  + "</div>" +
+// "</div>";
+
+// div.innerHTML = legendInfo;
+// // Adding legend to the map
+// legend.addTo(myMap);
