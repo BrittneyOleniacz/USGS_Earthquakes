@@ -30,7 +30,7 @@ d3.json(usgslink, function (data) {
     L.geoJson(data, {
         //"On each data point, popup will appear when clicked to display, location, mag, and depth"
         onEachFeature: function (feature, layer) {
-            layer.bindPopup("<h1>" + feature.properties.mag + "</h1> <hr> <h2>" + feature.properties.place + "</h2>");
+            layer.bindPopup("<h2> Magnitude: " + feature.properties.mag + "</h2><h2> Depth: " + feature.geometry.coordinates[2] + " km </h2> <hr> <h2> Location: " + feature.properties.place + "</h2>");
         }, 
         //"each data point will be represented by a circle where the radius is representing the mag and the color depth."
         pointToLayer: function (feature, latlng) {
