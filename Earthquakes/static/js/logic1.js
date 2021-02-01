@@ -73,7 +73,7 @@ d3.json(usgslink, function(data) {
                 +"<br><h1>Magnitude: </h1>"+ feature.properties.mag
                 +"<br><h1>Depth: </h1>"+feature.geometry.coordinates[2] + " km" 
             );
-        }
+        },
     }).addTo(myMap);
 
 // "A map is useless without a legend!" ~Mr. Stabp (9th grade World Studies Teacher)
