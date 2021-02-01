@@ -37,7 +37,7 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 #### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
 
-### Observations: 
+#### Observations: 
 1. There appears to be a strong relationship between tectonic plates and earthquake localities
 2. Deeper earthquakes are located near at subduction zones, where one tectonic plates, is being submerged under another. Subduction commonly occurs between the oceanic and continental due the density defential. Oceanic Crust is basltic with a high iron content, while continental is more felsic. Subduction zones form deep sea trenches, for instance for instance along the western coast of South America and along the Aleutian Islands of Alaska. These areas experience some of the most extreme earthquakes 
 3. Deeper earthquakes commonly occur in oceanic regions, while shallower earthquakes occur on continental crust. 
