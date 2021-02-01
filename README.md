@@ -28,7 +28,7 @@ Your first task is to visualize the earthquake data set.
 - - -
 
 ### Tectonic Plates
-The USGS wants to add a second additional data to the map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found at [here](https://github.com/fraxen/tectonicplates). You will need to pull in a second data set and visualize it along side your original set of data. 
+The USGS wants to add a second additional data to the map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found [here](https://github.com/fraxen/tectonicplates). You will need to pull in a second data set and visualize it along side your original set of data. 
    * Add data to the original map with the following:
       * Plot the tectonic plates on the map
       * Add a number of options for the base map to choose from as well as separate out our 
