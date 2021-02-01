@@ -37,7 +37,6 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 
 - - -  
 ### Default Base Map overlayed with Tectonic Plate and Earthquakes layers
-- - -
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
 - - -
 ### Dark Base Map
