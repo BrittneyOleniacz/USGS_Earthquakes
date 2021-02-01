@@ -36,22 +36,22 @@ The USGS wants to add a second additional data to the map to illustrate the rela
       * Add layer controls to our map.
 
 - - -  
-### Default Base Map overlayed with Tectonic Plate and Earthquakes layers
+#### Default Base Map overlayed with Tectonic Plate and Earthquakes layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
 - - -
-### Dark Base Map
+#### Dark Base Map
 ![TectonicPlates_dark](Images/TectonicPlates_dark.png)
 - - -
-### Light Base Map
+#### Light Base Map
 ![TectonicPlates_light](Images/TectonicPlates_light.png)
 - - -
-### Satellite Base Map
+#### Satellite Base Map
 ![TectonicPlates_sat](Images/TectonicPlates_sat.png)
 - - -
-### Tectonic Plate Overlay
+#### Tectonic Plate Overlay
 ![TectonicPlates](Images/plates.png)
 - - -
-### Earthquakes Overlay
+#### Earthquakes Overlay
 ![TectonicPlates_sat](Images/earthquakes.png)
 
 
