@@ -37,19 +37,19 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 
 - - -  
 
-![TectonicPlates_default](TectonicPlates_default.png)
+![TectonicPlates_default](Images/TectonicPlates_default.png)
 
 - - -
 
-![TectonicPlates_dark](TectonicPlates_dark.png)
+![TectonicPlates_dark](Images/TectonicPlates_dark.png)
 
 - - -
 
-![TectonicPlates_light](TectonicPlates_light.png)
+![TectonicPlates_light](Images/TectonicPlates_light.png)
 
 - - -
 
-[TectonicPlates_sat](TectonicPlates_sat.png)
+![TectonicPlates_sat](Images/TectonicPlates_sat.png)
 
 
 
