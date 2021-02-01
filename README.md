@@ -49,7 +49,7 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 ![TectonicPlates_sat](Images/TectonicPlates_sat.png)
 - - -
 ### Tectonic Plate Overlay
-![TectonicPlates_sat](Images/Plates.png)
+![TectonicPlates](Images/plates.png)
 - - -
 ### Earthquakes Overlay
 ![TectonicPlates_sat](Images/earthquakes.png)
