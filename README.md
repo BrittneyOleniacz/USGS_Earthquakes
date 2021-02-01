@@ -35,13 +35,20 @@ The USGS wants to add a second additional data to the map to illustrate the rela
       * seperate the two data sets into overlays that can be turned on and off independently.
       * Add layer controls to our map.
 
-- - - 
+- - -  
+
 ![TectonicPlates_default](TectonicPlates_default.png)
+
 - - -
+
 ![TectonicPlates_dark](TectonicPlates_dark.png)
+
 - - -
+
 ![TectonicPlates_light](TectonicPlates_light.png)
+
 - - -
+
 [TectonicPlates_sat](TectonicPlates_sat.png)
 
 
