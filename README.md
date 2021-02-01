@@ -5,6 +5,8 @@ The United States Geological Survey, or USGS, is responsible for providing scien
 
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
+- - -
+
 ### Basic Visualization of Earthquakes
 Your first task is to visualize an earthquake data set.
 ### 1. Get your data set
