@@ -36,8 +36,13 @@ The USGS wants to add a second additional data to the map to illustrate the rela
       * Add layer controls to our map.
 
 - - - 
-![plates](Images/plates.png) ![TectonicPlates_default](TectonicPlates_default.png)
-
+![TectonicPlates_default](TectonicPlates_default.png)
+- - -
+![TectonicPlates_dark](TectonicPlates_dark.png)
+- - -
+![TectonicPlates_light](TectonicPlates_light.png)
+- - -
+[TectonicPlates_sat](TectonicPlates_sat.png)
 
 
 
