@@ -9,9 +9,9 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ### Basic Visualization of Earthquakes
 Your first task is to visualize an earthquake data set.
-### 1. Get your data set
+#### 1. Get your data set
    The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. Click on the data set and capture the URL of the JSON representation provided. 
-### 2. Import & Visualize the Data
+#### 2. Import & Visualize the Data
    Using Leaflet, create a map that plots all of the earthquakes from your data set based on their longitude and latitude.
    * Data markers should reflect:
       * magnitude of the earthquake by the size of the marker
