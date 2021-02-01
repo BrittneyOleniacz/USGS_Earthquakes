@@ -1,5 +1,9 @@
 # Mapping Seismic Activity
 
+![USGSLogo](Images/1-Logo.png)
+
+
+
 ## Background
 The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. 
 
@@ -8,7 +12,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 - - -
 
 ### Basic Visualization of Earthquakes
-Your first task is to visualize an earthquake data set.
+Your first task is to visualize the earthquake data set.
 #### 1. Get your data set
    The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. Click on the data set and capture the URL of the JSON representation provided. 
 #### 2. Import & Visualize the Data
@@ -18,11 +22,13 @@ Your first task is to visualize an earthquake data set.
       * depth of the earthquake by color of the marker
    * Popups provide additional information about the earthquake when a marker is clicked.
    * Provide context for your map data by creating a legend
+   
+![earthquakes](Images/earthquake_popup.png)
 
 - - -
 
 ### Tectonic Plates
-The USGS wants to add a second additional data to the map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>. You will need to pull in a second data set and visualize it along side your original set of data. 
+The USGS wants to add a second additional data to the map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found at [here](https://github.com/fraxen/tectonicplates). You will need to pull in a second data set and visualize it along side your original set of data. 
    * Add data to the original map with the following:
       * Plot the tectonic plates on the map
       * Add a number of options for the base map to choose from as well as separate out our 
