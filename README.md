@@ -2,8 +2,6 @@
 
 ![USGSLogo](Images/1-Logo.png)
 
-
-
 ## Background
 The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. 
 
@@ -38,6 +36,14 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 - - -  
 #### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
+
+### Observations: 
+1. There appears to be a strong relationship between tectonic plates and earthquake localities
+2. Deeper earthquakes are located near at subduction zones, where one tectonic plates, is being submerged under another. Subduction commonly occurs between the oceanic and continental due the density defential. Oceanic Crust is basltic with a high iron content, while continental is more felsic. Subduction zones form deep sea trenches, for instance for instance along the western coast of South America and along the Aleutian Islands of Alaska. These areas experience some of the most extreme earthquakes 
+3. Deeper earthquakes commonly occur in oceanic regions, while shallower earthquakes occur on continental crust. 
+4. Moving inland towards the continental craton the earthquakes become smaller and shallower.
+5. Despite Hawaii being located near the center of the Pacific Plate, it experiences a significant number of Earthquakes for it's quaint surface area. While Hawaii is not located on tectonic plate boundaries, it is above a volcanic hotspot. The volcanism in Hawaii is very active. As volcanoes spew lava, the magma chamber can get air pockets, causing a collapse that will initiate a low grade earthquake. 
+
 - - -
 #### Dark Base Map
 ![TectonicPlates_dark](Images/TectonicPlates_dark.png)
