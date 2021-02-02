@@ -34,7 +34,7 @@ The USGS wants to add a second additional data to the map to illustrate the rela
       * Add layer controls to our map.
 
 - - -  
-### Analysis
+## Analysis
 - - -
 #### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
@@ -65,7 +65,7 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 5. Geologic age ranges of the continental crust should be overlayed to observe the relationship between age and tectonic stability. 
 
 - - -
-### Additional Maps
+## Additional Maps
 - - -
 #### Dark Base Map
 ![TectonicPlates_dark](Images/TectonicPlates_dark.png)
@@ -81,4 +81,4 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 - - -
 #### Default Base Map with Earthquake Overlay
 ![TectonicPlates_sat](Images/earthquakes.png)
-- - -
+
