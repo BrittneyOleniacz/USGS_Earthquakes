@@ -34,6 +34,8 @@ The USGS wants to add a second additional data to the map to illustrate the rela
       * Add layer controls to our map.
 
 - - -  
+### Analysis
+- - -
 #### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
 
@@ -46,18 +48,13 @@ The USGS wants to add a second additional data to the map to illustrate the rela
    * Additionally, earthquakes seldomly occur along the Blue Ridge range and the greater Applachian Mountains. These mountain ranges were formed nearly a billion years ago and        are significantly older than the Rockie Moutains that are dated at 50-80 million years old. This suggests, the age of a mountain ranges influences it's tectonic stability.
    * Lastly, the lithology of the underlying rock units in a mountain range should play a significant role in stability. 
 5. Deeper earthquakes are located near at subduction zones, where one tectonic plate, is being submerged under another, as seen in the infographic below. Subduction commonly occurs between oceanic and continental plates due to a density defential. Oceanic Crust is basltic with a high iron content, while continental is felsic and having less dense mineralogy. Subduction zones can form deep sea trenches, such as the Mariana trench along the Mariana Island near Guam. It is along these subduction zones that the deepest, most extreme earthquakes originate. 
-
 <p align="center">
   <img src="Images/subduction_infographic.png" alt="subduction_info" width="450" height="300"/>
 </p>
-
 6. The majority of earthquakes occur along the boundary of the Pacific Plate. This region is nicknamed, "Ring of Fire", is comprised of, almost entirely of subduction zones, as illustrated in the below map by Stegman in Schellart et al. (2011). When deep subductions adjust, an earthquake occurs and the displacement of water causes massive tsunamis.   
-
 <p align="center">
   <img src="Images/subduction_zones.png" alt="subduction_zones"/>
 </p>
-
-
 7. Despite Hawaii being located near the center of the Pacific Plate, it experiences a significant number of Earthquakes for it's quaint surface area. While Hawaii is not located on tectonic plate boundaries, it is located above a volcanic hotspot. The volcanism in Hawaii is very active and can alone, be the source of earthquakes, but also, as volcanoes erupt, the magma chamber empties creating air pockets that collapse under the weight the earth's crust intitiating deep structiral adjustments. Most earthquakes in Hawaii go unnoticed, but in the most volcanically active region of "The Big Island", the depth of the focus is 30-36 Kilometers deep. 
 
 #### Recommendations:
@@ -67,6 +64,7 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 4. The direction and speed of the plates, much like Stegman's map above, should be incorporated into the map. 
 5. Geologic age ranges of the continental crust should be overlayed to observe the relationship between age and tectonic stability. 
 
+- - -
 ### Additional Maps
 - - -
 #### Dark Base Map
