@@ -48,7 +48,7 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 5. Deeper earthquakes are located near at subduction zones, where one tectonic plates, is being submerged under another. Subduction commonly occurs between oceanic and continental plates due to a density defential. Oceanic Crust is basltic with a high iron content, while continental is felsic and having less dense mineralogy. Subduction zones can form deep sea trenches, such as the Mariana trench along the Mariana Island near Guam. It is along these subduction zones that the deepest, most extreme earthquakes originate. 
 
 <p align="center">
-  <img src="Images/subduction_infographic.png" alt="subduction_info" width="400" height="350"/>
+  <img src="Images/subduction_infographic.png" alt="subduction_info" width="450" height="300"/>
 </p>
 
 6. The majority of earthquakes occur along the boundary of the Pacific Plate. This region is nicknamed, "Ring of Fire", is comprised of, almost entirely of subduction zones, as illustrated in the below map by Stegman in Schellart et al. (2011). When deep subductions adjust, an earthquake occurs and the displacement of water causes massive tsunamis.   
