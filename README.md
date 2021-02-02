@@ -41,15 +41,25 @@ The USGS wants to add a second additional data to the map to illustrate the rela
 1. Generally, yes, there appears to be a strong relationship between tectonic plates and earthquake localities.
 2. Deeper earthquakes commonly occur in oceanic regions, while shallower earthquakes occur on continental crust. 
 3. Moving inland, the earthquakes become smaller and shallower. This trend is likely exaplined by the cratonic region of the continental plates. The craton is the oldest and most tectonically stable area of a continental shield. 
-4. Deeper earthquakes are located near at subduction zones, where one tectonic plates, is being submerged under another. Subduction commonly occurs between oceanic and continental plates due to a density defential. Oceanic Crust is basltic with a high iron content, while continental is felsic and having less dense mineralogy. Subduction zones can form deep sea trenches, such as the Mariana trench along the Mariana Island near Guam. It is along these subduction zones that the deepest, most extreme earthquakes originate. 
+4. Earthquakes occur among mountain ranges, such as the Cascade Mountains, Rockie Mountains and the Andes Mountains. 
+   * However, no earthquakes are observed in the Himalayan Mountains, despite being along a convergent plate boundary, suggesting a convergent boudnary between two continental        plates are more tectonically stable. 
+   * Additionally, earthquakes seldomly occur along the Blue Ridge range and the greater Applachian Mountains. These mountain ranges were formed nearly a billion years ago and        are significantly older than the Rockie Moutains that are dated at 50-80 million years old. This suggests, the age of a mountain ranges influences it's tectonic stability.
+   * Lastly, the lithology of the underlying rock units in a mountain range should play a significant role in stability. 
+5. Deeper earthquakes are located near at subduction zones, where one tectonic plates, is being submerged under another. Subduction commonly occurs between oceanic and continental plates due to a density defential. Oceanic Crust is basltic with a high iron content, while continental is felsic and having less dense mineralogy. Subduction zones can form deep sea trenches, such as the Mariana trench along the Mariana Island near Guam. It is along these subduction zones that the deepest, most extreme earthquakes originate. 
 ![subduction_info](Images/subduction_infographic.png)
-5. The majority of earthquakes occur along the boundary of the Pacific Plate. This region is nicknamed, "Ring of Fire". 
+
+6. The majority of earthquakes occur along the boundary of the Pacific Plate. This region is nicknamed, "Ring of Fire", is comprised of, almost entirely of subduction zones, as illustrated in the below map by Stegman in Schellart et al. (2011). When deep subductions adjust, an earthquake occurs and the displacement of water causes massive tsunamis.   
+
 ![subduction_zones](Images/subduction_zones.png)
-6. Despite Hawaii being located near the center of the Pacific Plate, it experiences a significant number of Earthquakes for it's quaint surface area. While Hawaii is not located on tectonic plate boundaries, it is located above a volcanic hotspot. The volcanism in Hawaii is very active and can alone, be the source of earthquakes, but also, as volcanoes erupt, the magma chamber empties creating air pockets that collapse under the weight the earth's crust intitiating deep structiral adjustments. Most earthquakes in Hawaii go unnoticed, but in the most volcanically active region of "The Big Island", the depth of the focus is 30-36 Kilometers deep. 
+
+7. Despite Hawaii being located near the center of the Pacific Plate, it experiences a significant number of Earthquakes for it's quaint surface area. While Hawaii is not located on tectonic plate boundaries, it is located above a volcanic hotspot. The volcanism in Hawaii is very active and can alone, be the source of earthquakes, but also, as volcanoes erupt, the magma chamber empties creating air pockets that collapse under the weight the earth's crust intitiating deep structiral adjustments. Most earthquakes in Hawaii go unnoticed, but in the most volcanically active region of "The Big Island", the depth of the focus is 30-36 Kilometers deep. 
 
 #### Recommendations:
 1. Data does not show earthquakes along Mid-Atlantic Ridge, a divergent plate boundary, despite there being thousands of transfrom boundaries perpendicular to the ridge. This may indicate a gap in data and where additional study should occur. 
 2. To better correlate the focus of the earthquakes with the geologic features and surface characteristics, a map created with Light Detection and Ranging (LIDAR), both topograhic and bathymetric, remote sensing should be incorporated into this map. 
+3. To better visualize the influence of tectonics has on natural disasters, more than earthquakes must be considered, such as volcanism, mountain building, tsunamis, and additionally, earthquakes caused by human inference of the earth's geological processes.
+4. The direction and speed of the plates, much like Stegman's map above, should be incorporated into the map. 
+5. Geologic age ranges of the continental crust should be overlayed to observe the relationship between age and tectonic stability. 
 
 ### Additional Maps
 - - -
