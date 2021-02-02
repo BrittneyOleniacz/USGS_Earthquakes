@@ -8,13 +8,19 @@ body,
   margin: 0;
 }
 
+/*Popup text should be succinct and compact to provide the information in one glace*/
+/*Sans-serif text for clarity, dark color on white background, and label in bold*/
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: black;
   margin: 0;
+  /*There was too much white space in between lines*/
   margin-bottom:-5px;
   font-weight: bold;
+  /*It personlly bugged me that the label was on one line and the info on the next.*/
+  /*To provide a concise, but clear popup, I bolded the labels and put the informative text on the same line*/
+  /*Each popup is 3-4 lines, instead of 6-7, allowing the reader to get the information in one glance.*/
   display: inline;
 }
 
