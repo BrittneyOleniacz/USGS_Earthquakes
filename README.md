@@ -8,7 +8,7 @@ The United States Geological Survey, or USGS, is responsible for providing scien
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 - - -
-## Objective: 
+## Objective
 Visualize Earthquake occurrences and association with plate tectonics. 
 - - -
 
@@ -17,20 +17,18 @@ Visualize Earthquake occurrences and association with plate tectonics.
 ### Earthquake Occurences
 #### 1. Get data
    The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. Visit the [USGS GeoJSON Feed]       (http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. Click on data set and capture URL of the JSON representation provided. 
-#### 2. Import & Visualize the Data
+#### 2. Import and Visualize the Data
    Using Leaflet, create a map that plots earthquakes using the longitude and latitude of the epicenters.
    * Data markers should reflect:
       * magnitude of the earthquake by the size of the marker
       * depth of the earthquake's focus by color of the marker
    * Popups provide additional information about the earthquake when a marker is clicked.
    * Provide context for your map data by creating a legend
-   
-![earthquakes](Images/earthquake_popup.png)
-
-
 ### Tectonic Plates
 #### 1. Get data
    Add additional data to illustrate relationship between tectonic plates and seismic activity. Data on tectonic plates can be found [here](https://github.com/fraxen/tectonicplates). 
+#### 2. Import, add, and visualize the data
+   Import additional data alongside original data so they appear on the same JS Leaflet map.
    * Add data to the original map with the following:
       * Plot the tectonic plates on the map
       * Add a number of options for the base map to choose from as well as separate out our 
