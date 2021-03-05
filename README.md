@@ -8,11 +8,15 @@ The United States Geological Survey, or USGS, is responsible for providing scien
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 - - -
+## Objective: 
+Visualize Earthquake occurrences and association with plate tectonics. 
+- - -
 
-### Basic Visualization of Earthquakes
-Your first task is to visualize the earthquake data set.
-#### 1. Get your data set
-   The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. Click on the data set and capture the URL of the JSON representation provided. 
+
+## Methods
+### Earthquake Occurences
+#### 1. Get data
+   The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. Visit the [USGS GeoJSON Feed]       (http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. Click on data set and capture URL of the JSON representation provided. 
 #### 2. Import & Visualize the Data
    Using Leaflet, create a map that plots earthquakes using the longitude and latitude of the epicenters.
    * Data markers should reflect:
@@ -23,10 +27,10 @@ Your first task is to visualize the earthquake data set.
    
 ![earthquakes](Images/earthquake_popup.png)
 
-- - -
 
 ### Tectonic Plates
-The USGS wants to add a second additional data to the map to illustrate the relationship between tectonic plates and seismic activity. Data on tectonic plates can be found [here](https://github.com/fraxen/tectonicplates). You will need to pull in a second data set and visualize it along side your original set of data. 
+#### 1. Get data
+   Add additional data to illustrate relationship between tectonic plates and seismic activity. Data on tectonic plates can be found [here](https://github.com/fraxen/tectonicplates). 
    * Add data to the original map with the following:
       * Plot the tectonic plates on the map
       * Add a number of options for the base map to choose from as well as separate out our 
