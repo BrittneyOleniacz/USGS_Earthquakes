@@ -35,7 +35,23 @@ Visualize Earthquake occurrences and association with plate tectonics.
       * seperate the two data sets into overlays that can be turned on and off independently.
       * Add layer controls to our map.
 
-- - -  
+## Product
+#### Default Base Map with Earthquake Overlay
+![TectonicPlates_sat](Images/earthquakes.png)
+
+#### Default Base Map with Tectonic Plate Overlay
+![TectonicPlates](Images/plates.png)
+
+#### Satellite Base Map
+![TectonicPlates_sat](Images/TectonicPlates_sat.png)
+
+#### Dark Base Map
+![TectonicPlates_dark](Images/TectonicPlates_dark.png)
+
+#### Light Base Map
+![TectonicPlates_light](Images/TectonicPlates_light.png)
+
+
 ## Analysis
 #### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
@@ -65,21 +81,4 @@ Visualize Earthquake occurrences and association with plate tectonics.
 4. The direction and speed of the plates, much like Stegman's map above, should be incorporated into the map. 
 5. Geologic age ranges of the continental crust should be overlayed to observe the relationship between age and tectonic stability. 
 
-- - -
-## Additional Maps
-- - -
-#### Dark Base Map
-![TectonicPlates_dark](Images/TectonicPlates_dark.png)
-- - -
-#### Light Base Map
-![TectonicPlates_light](Images/TectonicPlates_light.png)
-- - -
-#### Satellite Base Map
-![TectonicPlates_sat](Images/TectonicPlates_sat.png)
-- - -
-#### Default Base Map with Tectonic Plate Overlay
-![TectonicPlates](Images/plates.png)
-- - -
-#### Default Base Map with Earthquake Overlay
-![TectonicPlates_sat](Images/earthquakes.png)
 
