@@ -42,6 +42,9 @@ Visualize Earthquake occurrences and association with plate tectonics.
 #### Default Base Map with Tectonic Plate Overlay
 ![TectonicPlates](Images/plates.png)
 
+#### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
+![TectonicPlates_default](Images/TectonicPlates_default.png)
+
 #### Satellite Base Map
 ![TectonicPlates_sat](Images/TectonicPlates_sat.png)
 
@@ -52,11 +55,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
 ![TectonicPlates_light](Images/TectonicPlates_light.png)
 
 
-## Analysis
-#### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
-![TectonicPlates_default](Images/TectonicPlates_default.png)
-
-#### Observations: 
+## Observations
 1. Generally, yes, there appears to be a strong relationship between tectonic plates and earthquake localities.
 2. Deeper earthquakes commonly occur in oceanic regions, while shallower earthquakes occur on continental crust. 
 3. Moving inland, the earthquakes become smaller and shallower. This trend is likely exaplined by the cratonic region of the continental plates. The craton is the oldest and most tectonically stable area of a continental shield. 
