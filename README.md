@@ -3,9 +3,7 @@
 ![USGSLogo](Images/1-Logo.png)
 
 ## Background
-The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. 
-
-The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
+The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. They collect a massive amount of data from all over the world each day, but lack a meaningful way of displaying it. Visualize the data to help better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 - - -
 ## Objective
@@ -16,14 +14,101 @@ Visualize Earthquake occurrences and association with plate tectonics.
 ## Methods
 ### Earthquake Occurences
 #### 1. Get data
-   The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. Visit the [USGS GeoJSON Feed]       (http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. Click on data set and capture URL of the JSON representation provided. 
+   Using JSON, Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. The USGS provides earthquake data in a number of different formats, updated in 5 minute increments. 
+   ```Ruby
+   var usgslink = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+   ```
 #### 2. Import and Visualize the Data
    Using Leaflet, create a map that plots earthquakes using the longitude and latitude of the epicenters.
    * Data markers should reflect:
-      * magnitude of the earthquake by the size of the marker
-      * depth of the earthquake's focus by color of the marker
-   * Popups provide additional information about the earthquake when a marker is clicked.
-   * Provide context for your map data by creating a legend
+```Ruby
+      d3.json(usgslink, function(data) {
+      function styleInfo(feature) {
+        return {
+            radius: getRadius(feature.properties.mag),
+            opacity: 1,
+            fillOpacity: 1,
+            fillColor: getColor(feature.geometry.coordinates[2]),
+            color: "#000000",
+            stroke: true,
+            weight: 0.5,
+        };
+ ```
+    * magnitude of the earthquake by the size of the marker
+ ```ruby
+       function getRadius(magnitude) {
+          if (magnitude === 0) {
+            return 1;
+           }
+          return magnitude * 4;
+        };
+ ```
+   * depth of the earthquake's focus by color of the marker
+```ruby
+   function getColor(depth) {
+      switch (true) {
+         case depth > 90:
+            return "#EA2C2C";
+         case depth > 70:
+            return "#EA822C";
+         case depth > 50:
+            return "#EE9C00";
+         case depth > 30:
+            return "#EECC00";
+         case depth > 10:
+            return "#D4EE00";
+         default:
+            return "#98EE00";
+     };
+ ```
+   * Added Popups provide additional information about the earthquake when a marker is clicked.
+ ```ruby
+   L.geoJson(data, {
+        // Make each feature a circleMarker on the map.
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng);
+        },
+        style: styleInfo,
+        // Create a popup to display the location, mag, and depth to appear when marker is clicked. 
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(
+                "<h1>Location: </h1>"+feature.properties.place 
+                +"<br><h1>Magnitude: </h1>"+ feature.properties.mag
+                +"<br><h1>Depth: </h1>"+feature.geometry.coordinates[2] + " km" 
+            );
+        },
+    }).addTo(myMap);
+```
+  
+  
+  * No map is complete without a legend!
+```ruby  
+    var legend = L.control({
+    position: "bottomright"
+    });
+    legend.onAdd = function() {
+        var div = L.DomUtil.create("div", "info legend");
+        var grades = [-10, 10, 30, 50, 70, 90];
+        var colors = [
+            "#98EE00",
+            "#d4EE00",
+            "#EECC00",
+            "#EE9C00",
+            "#EA822C",
+            "#EA2C2C"
+        ];
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML += "<i style='background: " 
+        + colors[i] 
+        + "'></i> "
+        + grades[i] 
+        + (grades[i + 1] ? "&ndash;" + grades[i + 1] + "<br>" : "+");
+      }
+      return div;
+    };
+    legend.addTo(myMap);  
+```
+
 ### Tectonic Plates
 #### 1. Get data
    Add additional data to illustrate relationship between tectonic plates and seismic activity. Data on tectonic plates can be found [here](https://github.com/fraxen/tectonicplates). 
@@ -31,7 +116,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
    Import additional data alongside original data so they appear on the same JS Leaflet map.
    * Add data to the original map with the following:
       * Plot the tectonic plates on the map
-      * Add a number of options for the base map to choose from as well as separate out our 
+      * Add a number of options for the base map to choose.
       * seperate the two data sets into overlays that can be turned on and off independently.
       * Add layer controls to our map.
 
@@ -56,7 +141,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
 
 
 ## Observations
-1. Generally, yes, there appears to be a strong relationship between tectonic plates and earthquake localities.
+1. There is a strong relationship between tectonic plates and earthquake localities. 
 2. Deeper earthquakes commonly occur in oceanic regions, while shallower earthquakes occur on continental crust. 
 3. Moving inland, the earthquakes become smaller and shallower. This trend is likely exaplined by the cratonic region of the continental plates. The craton is the oldest and most tectonically stable area of a continental shield. 
 4. Earthquakes occur among mountain ranges, such as the Cascade Mountains, Rockie Mountains and the Andes Mountains. 
@@ -78,6 +163,6 @@ Visualize Earthquake occurrences and association with plate tectonics.
 2. To better correlate the focus of the earthquakes with the geologic features and surface characteristics, a map created with Light Detection and Ranging (LIDAR), both topograhic and bathymetric, remote sensing should be incorporated into this map. 
 3. To better visualize the influence of tectonics has on natural disasters, more than earthquakes must be considered, such as volcanism, mountain building, tsunamis, and additionally, earthquakes caused by human inference of the earth's geological processes.
 4. The direction and speed of the plates, much like Stegman's map above, should be incorporated into the map. 
-5. Geologic age ranges of the continental crust should be overlayed to observe the relationship between age and tectonic stability. 
+5. Geologic age ranges of the continental crust, even subsurface bedrock lithology, should be overlayed to observe the relationship between age and tectonic stability. For instance, some of the oldest bedrock is found in the North American craton where there is a lack of tectonic activity. 
 
 
