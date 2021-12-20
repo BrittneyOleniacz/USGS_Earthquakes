@@ -43,7 +43,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
           return magnitude * 4;
         };
  ```
-   * depth of the earthquake's focus by color of the marker
+    * depth of the earthquake's focus by color of the marker
 ```ruby
    function getColor(depth) {
       switch (true) {
@@ -61,7 +61,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
             return "#98EE00";
      };
  ```
-   * Added Popups provide additional information about the earthquake when a marker is clicked.
+    * Added Popups provide additional information about the earthquake when a marker is clicked.
  ```ruby
    L.geoJson(data, {
         // Make each feature a circleMarker on the map.
@@ -81,7 +81,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
 ```
   
   
-  * No map is complete without a legend!
+      * No map is complete without a legend!
 ```ruby  
     var legend = L.control({
     position: "bottomright"
@@ -108,6 +108,9 @@ Visualize Earthquake occurrences and association with plate tectonics.
     };
     legend.addTo(myMap);  
 ```
+## Product
+#### Default Base Map with Earthquake Overlay
+![TectonicPlates_sat](Images/earthquakes.png)
 
 ### Tectonic Plates
 #### 1. Get data
@@ -121,15 +124,14 @@ Visualize Earthquake occurrences and association with plate tectonics.
       * Add layer controls to our map.
 
 ## Product
-#### Default Base Map with Earthquake Overlay
-![TectonicPlates_sat](Images/earthquakes.png)
-
 #### Default Base Map with Tectonic Plate Overlay
 ![TectonicPlates](Images/plates.png)
 
 #### Default Base Map overlayed with Tectonic Plate and Earthquakes Layers
 ![TectonicPlates_default](Images/TectonicPlates_default.png)
 
+
+## Additional Products
 #### Satellite Base Map
 ![TectonicPlates_sat](Images/TectonicPlates_sat.png)
 
