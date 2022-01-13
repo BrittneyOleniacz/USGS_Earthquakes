@@ -34,7 +34,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
             weight: 0.5,
         };
  ```
-    * magnitude of the earthquake by the size of the marker
+ * magnitude of the earthquake by the size of the marker
  ```ruby
        function getRadius(magnitude) {
           if (magnitude === 0) {
@@ -43,7 +43,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
           return magnitude * 4;
         };
  ```
-    * depth of the earthquake's focus by color of the marker
+* depth of the earthquake's focus by color of the marker
 ```ruby
    function getColor(depth) {
       switch (true) {
@@ -61,7 +61,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
             return "#98EE00";
      };
  ```
-    * Added Popups provide additional information about the earthquake when a marker is clicked.
+ * Added Popups provide additional information about the earthquake when a marker is clicked.
  ```ruby
    L.geoJson(data, {
         // Make each feature a circleMarker on the map.
@@ -81,7 +81,7 @@ Visualize Earthquake occurrences and association with plate tectonics.
 ```
   
   
-      * No map is complete without a legend!
+* No map is complete without a legend!
 ```ruby  
     var legend = L.control({
     position: "bottomright"
